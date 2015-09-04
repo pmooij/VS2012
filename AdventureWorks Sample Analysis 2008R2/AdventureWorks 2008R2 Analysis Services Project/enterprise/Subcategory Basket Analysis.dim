@@ -1,0 +1,208 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a5dda613-eb26-47ed-a0af-bd964f4938da" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Subcategory Basket Analysis</ID>
+  <Name>Subcategory Basket Analysis</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1289" scrolltop="-8450" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10001" y="23998" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DIMENSION_CONTENT_ROWSET" left="435" top="-7413" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5210" height="8240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800005a14000030200000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIMENSION_CONTENT_ROWSET" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1289</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8450</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>435</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7413</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="579c3366-ec1a-4fc0-b083-4a1ff3170795">
+    <DataSourceViewID>Subcategory Basket Analysis_DMDSV</DataSourceViewID>
+  </Source>
+  <MiningModelID>Subcategory Associations</MiningModelID>
+  <ErrorConfiguration dwd:design-time-name="125e1e47-ea80-4819-8ac3-9affeda866b0">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="5d89f6d7-ec95-42ec-a765-9db7b22829d9">
+      <Language>3082</Language>
+      <Caption>Análisis de la Cesta de Subcategorías</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="aebcc26b-0124-41f6-b7e8-5343b7e2a539">
+      <Language>1036</Language>
+      <Caption>Analyse Panier par Sous-Catégorie</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="10ca3e4c-b9fd-46da-b4d3-4c39f1792380">
+      <ID>ATTRIBUTE_NAME</ID>
+      <Name>Attribute Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="372e746a-b65d-4256-ac7b-9253b2934123">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b81382a8-8ddb-435e-89e3-c0b5be00ac13">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>ATTRIBUTE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="dfe7a5a7-eae1-4334-a76d-18dc34481d4e">
+          <Language>1036</Language>
+          <Caption>Nom d'Attribut</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="2de40318-7fd5-41bc-9f43-47f6f926e627">
+          <Language>3082</Language>
+          <Caption>Nombre de la Cualidad</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="21c3d9fa-52a3-4152-9db9-9b1be6111504">
+      <ID>PARENT_UNIQUE_NAME</ID>
+      <Name>Subcategory Baskets</Name>
+      <Usage>Parent</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6644591e-bd8f-495b-abe0-c2fa640c53cc">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7fb2245c-6960-425d-aef5-e46c010fed82">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>PARENT_UNIQUE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="6dfb6c92-a48d-41ac-8677-15f299acb37d">
+          <Language>3082</Language>
+          <Caption>Cestas de Subcategorías</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="1ec35318-d27d-4eb5-afb4-816bf713d840">
+          <Language>1036</Language>
+          <Caption>Paniers par Sous-Catégorie</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="0e0031d6-1a8f-4587-834a-a13143e6d464">
+      <ID>NODE_UNIQUE_NAME</ID>
+      <Name>Node Unique Name</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="69542b72-69af-4f16-b484-a2441ec6b442">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e30d7e80-1618-4d55-819b-6fcc1d07767f">
+            <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+            <ColumnID>NODE_UNIQUE_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9ad801a9-1291-4fe2-a341-ec5dff04ab11">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9efcdd4c-5b5e-4cfc-91e9-55022c22ea04">
+          <TableID>DIMENSION_CONTENT_ROWSET</TableID>
+          <ColumnID>NODE_CAPTION</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="d3c570fd-01cf-4bf3-9bfa-a14008080db4">
+          <Language>3082</Language>
+          <Caption>Nombre Unico del Nodo</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="a6db83c8-39c5-4711-b4f8-167bd11684b0">
+          <Language>1036</Language>
+          <Caption>Nom Unique de Noeud</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fd121c59-4675-4581-8a97-1ff6b18f218e">
+          <AttributeID>PARENT_UNIQUE_NAME</AttributeID>
+          <Name>Subcategory Baskets</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d54a8872-315b-4ee3-9f85-c2e6b472e97f">
+          <AttributeID>ATTRIBUTE_NAME</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Attribute Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Subcategory Baskets</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="137edc81-5f15-421e-b046-d3be1628a54d">
+      <Language>3082</Language>
+      <Caption>Todas las Cesta de Subcategorías</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="193b5ef0-ceac-488b-aa3c-d2855a5583b2">
+      <Language>1036</Language>
+      <Caption>Toutes les Analyses Panier par Sous-Catégorie</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+</Dimension>

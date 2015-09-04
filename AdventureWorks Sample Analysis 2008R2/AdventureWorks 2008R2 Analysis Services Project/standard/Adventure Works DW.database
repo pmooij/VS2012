@@ -1,0 +1,38 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="database1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Adventure Works DW SE</ID>
+  <Name>Adventure Works DW SE</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Description>A Unified Dimensional Model built on the Adventure Works data warehouse.</Description>
+  <Annotations>
+    <Annotation>
+      <Name>CA1792B06E6B48BDAD71EFE2A95A0F02</Name>
+      <Value>
+        <Rules xmlns="CA1792B06E6B48BDAD71EFE2A95A0F02">
+          <Rule id="14" />
+        </Rules>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>B77886FF900E4C18A95F79A6BFA488A9</Name>
+      <Value>
+        <Results xmlns="B77886FF900E4C18A95F79A6BFA488A9">
+          <Result sourcePath="[Promotion].[Promotions]" sourceType="Hierarchy" rule="12">A relationship cannot be defined in this case as 'Type' does not uniquely imply 'Category.' However, the hierarchy is still useful.</Result>
+          <Result sourcePath="[Product]" sourceType="Dimension" rule="20">In this dimension, all unknown members correspond to assembly components, which have no corresponing subcategories.</Result>
+          <Result sourcePath="[Reseller Sales Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+          <Result sourcePath="[Internet Sales Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+          <Result sourcePath="[Sales Summary Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+          <Result sourcePath="[Source Currency]" sourceType="Dimension" rule="11">The two attributes defined in this dimension, currency name and currency code, have a 1:1 relationship with each other.</Result>
+        </Results>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T08:00:00Z</LastUpdate>
+  <Dimensions />
+  <Cubes />
+  <MiningStructures />
+  <DataSources />
+  <DataSourceViews />
+</Database>

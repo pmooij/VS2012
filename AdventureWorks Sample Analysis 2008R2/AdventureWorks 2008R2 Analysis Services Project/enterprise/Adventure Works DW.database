@@ -1,0 +1,101 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="database1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Adventure Works DW 2008</ID>
+  <Name>Adventure Works DW 2008</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Description>A Unified Dimensional Model that encompasses the Adventure Works data warehouse.</Description>
+  <Annotations>
+    <Annotation>
+      <Name>CA1792B06E6B48BDAD71EFE2A95A0F02</Name>
+      <Value>
+        <Rules xmlns="CA1792B06E6B48BDAD71EFE2A95A0F02">
+          <Rule id="14" />
+        </Rules>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>B77886FF900E4C18A95F79A6BFA488A9</Name>
+      <Value>
+        <Results xmlns="B77886FF900E4C18A95F79A6BFA488A9">
+          <Result sourcePath="[Destination Currency].[Destination Currency]" sourceType="DimensionAttribute" rule="18">The default member is defined in the MDX script.</Result>
+          <Result sourcePath="[Promotion].[Promotions]" sourceType="Hierarchy" rule="12">A relationship cannot be defined in this case as 'Type' does not uniquely imply 'Category.' However, the hierarchy is still useful.</Result>
+          <Result sourcePath="[Product]" sourceType="Dimension" rule="20">In this dimension, all unknown members correspond to assembly components, which have no corresponing subcategories.</Result>
+          <Result sourcePath="[Source Currency]" sourceType="Dimension" rule="11">The two attributes defined in this dimension, currency name and currency code, have a 1:1 relationship with each other.</Result>
+          <Result sourcePath="[Destination Currency]" sourceType="Dimension" rule="11">The two attributes defined in this dimension, currency name and currency code, have a 1:1 relationship with each other.</Result>
+          <Result sourcePath="[Reseller Sales Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+          <Result sourcePath="[Internet Sales Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+          <Result sourcePath="[Sales Summary Order Details]" sourceType="Dimension" rule="13">The storage mode of the dimension is ROLAP, which will necessitate 'ByTable' processing where duplicate key errors are expected.</Result>
+        </Results>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T08:00:00Z</LastUpdate>
+  <Dimensions />
+  <Cubes />
+  <MiningStructures />
+  <DataSources />
+  <DataSourceViews />
+  <Accounts>
+    <Account dwd:design-time-name="account1">
+      <AccountType>Statistical</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Statistical</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account2">
+      <AccountType>Liability</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Liabilities</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account3">
+      <AccountType>Asset</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Assets</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account4">
+      <AccountType>Balance</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Balances</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account5">
+      <AccountType>Flow</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Flow</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account6">
+      <AccountType>Expense</AccountType>
+      <Aliases>
+        <Alias>Expenditures</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="account7">
+      <AccountType>Income</AccountType>
+      <Aliases>
+        <Alias>Revenue</Alias>
+      </Aliases>
+    </Account>
+  </Accounts>
+  <Translations>
+    <Translation dwd:design-time-name="6833f5b8-5711-46fd-88df-eeec7f8402a3">
+      <Language>3082</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modelo dimensional unificado (UDM) que abarca la Adventure Works el almacén de los datos.</Description>
+    </Translation>
+    <Translation dwd:design-time-name="acf25b09-8091-43c1-b2f4-5f6f52654488">
+      <Language>1036</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modèle dimensionnel unifié qui contient l'entrepot de données complet de Adventure Works.</Description>
+    </Translation>
+  </Translations>
+</Database>

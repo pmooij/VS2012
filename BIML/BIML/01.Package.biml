@@ -1,0 +1,14 @@
+<Biml xmlns="http://schemas.varigence.com/biml.xsd">
+	<Connections>
+		<Connection Name="LocalDbBIML" ConnectionString="Data Source=(localdb)\v12.0;Initial Catalog=BIML;Provider=SQLNCLI11.1;Integrated Security=SSPI;" CreateInProject="true"> </Connection>
+	</Connections>
+	<Packages>
+		<Package Name="MyFirstPackage" ProtectionLevel="DontSaveSensitive">
+			<Tasks>
+				<ExecuteSQL Name="EST Select" ConnectionName="LocalDbBIML">
+					<DirectInput>SELECT 1 AS ONE</DirectInput>
+				</ExecuteSQL>
+			</Tasks>
+		</Package>
+	</Packages>
+</Biml>

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AWDW2012", "AWDW2012\AWDW2012.sqlproj", "{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildProcessTemplates", "BuildProcessTemplates", "{AAF69FEC-B702-4887-87DD-093AB415FB86}"
+	ProjectSection(SolutionItems) = preProject
+		..\BuildProcessTemplates\AzureContinuousDeployment.11.xaml = ..\BuildProcessTemplates\AzureContinuousDeployment.11.xaml
+		..\BuildProcessTemplates\DefaultTemplate.11.1.xaml = ..\BuildProcessTemplates\DefaultTemplate.11.1.xaml
+		..\BuildProcessTemplates\LabDefaultTemplate.11.xaml = ..\BuildProcessTemplates\LabDefaultTemplate.11.xaml
+		..\BuildProcessTemplates\UpgradeTemplate.xaml = ..\BuildProcessTemplates\UpgradeTemplate.xaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://paulmooij.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AWDW2012\\AWDW2012.sqlproj
+		SccProjectName1 = AWDW2012
+		SccLocalPath1 = AWDW2012
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|x86.ActiveCfg = Debug|x86
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|x86.Build.0 = Debug|x86
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Debug|x86.Deploy.0 = Debug|x86
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|x86.ActiveCfg = Release|x86
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|x86.Build.0 = Release|x86
+		{DB26DDEF-3E5E-4D23-AC2F-D984C6DCDE4B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

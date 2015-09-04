@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BIML", "BIML\BIML.dtproj", "{09BFFB25-ABC8-484F-A7A4-E9A0EF73E819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BFFB25-ABC8-484F-A7A4-E9A0EF73E819}.Development|Default.ActiveCfg = Development
+		{09BFFB25-ABC8-484F-A7A4-E9A0EF73E819}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

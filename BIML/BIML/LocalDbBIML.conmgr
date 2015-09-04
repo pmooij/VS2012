@@ -1,0 +1,3 @@
+<ConnectionManager p1:ObjectName="LocalDbBIML" p1:DTSID="{D029DC63-6BE8-4A74-970C-3D59A82F7157}" p1:refId="Package.ConnectionManagers[LocalDbBIML]" p1:CreationName="OLEDB" xmlns:p1="www.microsoft.com/SqlServer/Dts" xmlns="www.microsoft.com/SqlServer/Dts">
+    <p1:ObjectData><DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts" DTS:ConnectionString="Data Source=(localdb)\v12.0;Initial Catalog=BIML;Provider=SQLNCLI11.1;Integrated Security=SSPI;"></DTS:ConnectionManager></p1:ObjectData>
+</ConnectionManager>

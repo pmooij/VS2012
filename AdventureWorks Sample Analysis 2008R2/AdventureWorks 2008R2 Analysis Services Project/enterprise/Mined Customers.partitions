@@ -1,0 +1,3 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a40367fc-fb17-4255-8664-e9bfe165bc23" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Mined Customers</ID>
+</Cube>
